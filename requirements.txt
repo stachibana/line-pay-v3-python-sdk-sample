@@ -1,0 +1,6 @@
+flask
+gunicorn
+line-pay
+flask-bootstrap
+pykintone
+python-dotenv

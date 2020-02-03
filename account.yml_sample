@@ -1,0 +1,5 @@
+domain: xxxxxxxxxx
+apps:
+  app0000000:
+    id: 0
+    token: XXXXXXXXXXXXXXXXXXXXXXXXXX
