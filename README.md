@@ -1,3 +1,5 @@
+![Screen Shot](https://cl.ly/f91d9e56c17c/pay_sdk_usage_02.png)
+
 # Overview
 
 LINE Pay API v3のPython版SDKの動作を確認出来るWeb Appです。[kintone](https://kintone.cybozu.co.jp/)と連携しているため、過去の取引の一覧を確認したり、返金、オーソリ無効化、自動決済(サブスク)の動作確認も可能です。
@@ -20,7 +22,7 @@ LINE Pay API v3のPython版SDKの動作を確認出来るWeb Appです。[kinton
 * `account.yml_sample`を`account.yml`にリネーム
 * 以下の画像の通り設定
 
-![kintone description](https://cl.ly/28f3d463696e/download/kintone_description.png)
+![kintone description](https://cl.ly/28f3d463696e/kintone_description.png)
 
 ## Execute
 
