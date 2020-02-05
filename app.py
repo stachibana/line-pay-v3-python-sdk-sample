@@ -20,7 +20,7 @@ load_dotenv(dotenv_path)
 # LINE Pay API
 LINE_PAY_CHANNEL_ID = os.environ.get("LINE_PAY_CHANNEL_ID")
 LINE_PAY_CHANNEL_SECRET = os.environ.get("LINE_PAY_CHANNEL_SECRET")
-LINE_PAY_IS_SANDBOX = True  # True | False
+LINE_PAY_IS_SANDBOX = False  # True | False
 api = LinePayApi(LINE_PAY_CHANNEL_ID,
                  LINE_PAY_CHANNEL_SECRET, is_sandbox=LINE_PAY_IS_SANDBOX)
 
