@@ -23,6 +23,7 @@ LINE Pay API v3のPython版SDKの動作を確認出来るWeb Appです。[kinton
 * 以下の画像の通り設定
 
 ![kintone description](https://cl.ly/28f3d463696e/kintone_description.png)
+![kintone description 2](https://cl.ly/249443c8b7fd/kintone_reload.png)
 
 ## Execute
 
