@@ -96,8 +96,8 @@ def reserve_payment(param_capture):
             }
         },
         "redirectUrls": {
-            "confirmUrl": request.host_url.replace('http', 'https') + "confirm",
-            "cancelUrl": request.host_url.replace('http', 'https') + "cancel"
+            "confirmUrl": request.host_url.replace('http://', 'https://') + "confirm",
+            "cancelUrl": request.host_url.replace('http://', 'https://') + "cancel"
         }
     }
     response = api.request(request_options)
@@ -139,12 +139,12 @@ def checkout():
             },
             "shipping": {
                 "type": "SHIPPING",
-                "feeInquiryUrl": request.host_url.replace('http', 'https') + "v1/shippings/methods/get/"
+                "feeInquiryUrl": request.host_url.replace('http://', 'https://') + "v1/shippings/methods/get/"
             }
         },
         "redirectUrls": {
-            "confirmUrl": request.host_url.replace('http', 'https') + "confirm",
-            "cancelUrl": request.host_url.replace('http', 'https') + "cancel"
+            "confirmUrl": request.host_url.replace('http://', 'https://') + "confirm",
+            "cancelUrl": request.host_url.replace('http://', 'https://') + "cancel"
         }
     }
     response = api.request(request_options)
