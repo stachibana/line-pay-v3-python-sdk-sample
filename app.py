@@ -206,8 +206,8 @@ def pay_get_regkey():
             }
         },
         "redirectUrls": {
-            "confirmUrl": request.host_url.replace('http', 'https') + "confirm",
-            "cancelUrl": request.host_url.replace('http', 'https') + "cancel"
+            "confirmUrl": request.host_url.replace('http://', 'https://') + "confirm",
+            "cancelUrl": request.host_url.replace('http://', 'https://') + "cancel"
         }
     }
     response = api.request(request_options)
